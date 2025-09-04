@@ -1,6 +1,44 @@
-# Ordner ausschließen
+# -----------------------------------------------------------------------------
+# KiCad Projekt-Dateien ignorieren
+# -----------------------------------------------------------------------------
+
+# Cache-Dateien
+fp-info-cache
+*-cache.lib
+
+# Autosaves
+_autosave-*.kicad_pcb
+_autosave-*.kicad_sch
+
+# Backups (können groß werden und sind nicht nötig im Git)
+*-backups/
+*-backups/*
 BigCore-backups/
 
-# bestimmte Dateien ausschließen
-fp-info-cache
-_autosave-BigCore.kicad_pcb
+# Temporäre BOM-/Netlist-/DRC-Dateien
+*.xml
+*.net
+*.dcm
+*.cmp
+
+# Output (Gerber, BoM, Simulation)
+*.gbr
+*.gbl
+*.gbs
+*.gbo
+*.gbp
+*.gtl
+*.gts
+*.gto
+*.gtp
+*.drl
+*.zip
+*.csv
+*.pdf
+*.log
+*.tmp
+
+# Simulation / Spice
+*.raw
+*.cir
+*.out
