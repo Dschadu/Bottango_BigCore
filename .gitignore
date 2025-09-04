@@ -1,0 +1,6 @@
+# Ordner ausschließen
+BigCore-backups/
+
+# bestimmte Dateien ausschließen
+fp-info-cache
+_autosave-BigCore.kicad_pcb
