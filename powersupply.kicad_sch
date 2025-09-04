@@ -2212,6 +2212,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDA"
 			(power)
 			(pin_numbers
@@ -3304,6 +3429,26 @@
 		)
 		(uuid "55b57c88-502a-403c-bd55-4a38e90c2708")
 	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 68.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aae9498-794b-425c-895b-69db730b6ffb")
+	)
+	(wire
+		(pts
+			(xy 49.53 119.38) (xy 44.45 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b67aa47-4869-45de-b63f-a4a308b8a097")
+	)
 	(polyline
 		(pts
 			(xy 215.9 68.58) (xy 215.9 25.4)
@@ -3383,6 +3528,16 @@
 			(type default)
 		)
 		(uuid "75adb5b7-7afc-4131-b68b-d1c38780b104")
+	)
+	(wire
+		(pts
+			(xy 44.45 119.38) (xy 44.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7908d8ed-ac8f-47df-903a-2e1b1ac52c04")
 	)
 	(wire
 		(pts
@@ -3686,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 124.46) (xy 55.88 119.38)
+			(xy 55.88 124.46) (xy 55.88 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3826,6 +3981,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 119.38) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc53e59-0dab-4a79-8f27-aae83e33b73d")
+	)
+	(wire
+		(pts
 			(xy 139.7 82.55) (xy 139.7 87.63)
 		)
 		(stroke
@@ -3863,6 +4028,16 @@
 			(type default)
 		)
 		(uuid "f0ff6200-6851-4b56-9543-b8c1868b3b78")
+	)
+	(wire
+		(pts
+			(xy 74.93 80.01) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1b359d-cef4-47a7-9616-db0032de7017")
 	)
 	(wire
 		(pts
@@ -3904,7 +4079,7 @@
 		)
 		(uuid "ff9edef2-2935-44ac-add6-0ed6ca5efe20")
 	)
-	(label "5V_In"
+	(label "5VD_In"
 		(at 68.58 87.63 0)
 		(effects
 			(font
@@ -3913,6 +4088,16 @@
 			(justify left bottom)
 		)
 		(uuid "4f3e4ff0-dd67-4920-b610-bc66f4ea39c0")
+	)
+	(label "5VA_In"
+		(at 68.58 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bde0632f-814f-4bad-9722-23176c4613f7")
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
@@ -5094,72 +5279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 55.88 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ce1922-90d5-4c87-813c-8949ce8d68e3")
-		(property "Reference" "#PWR018"
-			(at 55.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 55.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c23d61e2-2d0c-4edf-bc81-730f18dd603d")
-		)
-		(instances
-			(project "Bottango Heart"
-				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 76.2 54.61 0)
 		(unit 1)
@@ -5635,6 +5754,72 @@
 			(project "Mainboard"
 				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d279bdf-cea3-4d0c-ac7d-c0d2287a08de")
+		(property "Reference" "#PWR0117"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a086920-8d14-47fd-bd4d-e119e5afc03b")
+		)
+		(instances
+			(project "BigCore"
+				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6538,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Value" "5V Selection"
+		(property "Value" "5V Selection Digital"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -6860,6 +7045,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VD")
+		(at 74.93 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d74a63e2-26cf-4b06-b45d-ce6f04dba2de")
+		(property "Reference" "#PWR0120"
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8251504-5b22-44cd-9307-6a823f4ca211")
+		)
+		(instances
+			(project ""
+				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
 		(at 139.7 53.34 90)
@@ -7000,6 +7251,71 @@
 			(project "Bottango Heart"
 				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 44.45 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc2bbeab-54f5-4e51-8425-a7fb370671cf")
+		(property "Reference" "#PWR018"
+			(at 44.45 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc03b34f-4b6f-42b9-a87d-d6d14cbb7571")
+		)
+		(instances
+			(project "BigCore"
+				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7270,6 +7586,78 @@
 			(project ""
 				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 55.88 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37bff58-d998-4cb5-b386-204f5b17457d")
+		(property "Reference" "JP3"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V Selection Analog"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2258453-f280-40b9-b71c-2ffe62aab164")
+		)
+		(pin "3"
+			(uuid "2279dd14-0e15-471f-9aa8-7b5a5c17c4cd")
+		)
+		(pin "1"
+			(uuid "3e797d7c-bc92-46f5-9d43-6a395020ebbb")
+		)
+		(instances
+			(project "BigCore"
+				(path "/9351c569-8a22-403a-823f-92ee14b5d151/de348b60-5b93-45ac-b286-4b82c099f6e0"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
