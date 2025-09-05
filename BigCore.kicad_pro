@@ -60,6 +60,22 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|110950000|108955000|fea6447e-90d3-450f-8cc0-5bd07e0efa30|38386944-9d55-4f33-86b5-97355dc7710a",
+          ""
+        ],
+        [
+          "hole_clearance|110950000|108955000|fea6447e-90d3-450f-8cc0-5bd07e0efa30|a3f6a14a-337b-44af-b0f0-0ab4f33951c6",
+          ""
+        ],
+        [
+          "hole_clearance|117050000|108955000|107f67bc-206e-4684-b59d-102fcf02d19d|53964ef8-e8c2-4a25-b85b-81dfbded2c82",
+          ""
+        ],
+        [
+          "hole_clearance|117050000|108955000|107f67bc-206e-4684-b59d-102fcf02d19d|cec789b9-6c5e-4afe-8bed-27be51772c7e",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|145005000|152100000|d29e8c79-e8df-43c6-a8af-f846bca97f3b|00000000-0000-0000-0000-000000000000",
           ""
         ]

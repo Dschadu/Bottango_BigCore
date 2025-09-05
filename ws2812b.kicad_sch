@@ -4815,15 +4815,15 @@
 		(fields_autoplaced yes)
 		(uuid "c766356c-0155-486e-a7b9-316c91876e95")
 		(property "Reference" "U10"
-			(at 105.41 122.8091 0)
+			(at 106.68 120.5798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74LVC1G17"
-			(at 105.41 125.3491 0)
+		(property "Value" "74AHCT1G17"
+			(at 106.68 123.1198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,15 +5445,15 @@
 		(fields_autoplaced yes)
 		(uuid "f50c73c9-2cfd-439c-b85a-455e3b2bc5fa")
 		(property "Reference" "U9"
-			(at 105.41 72.0091 0)
+			(at 106.68 69.7798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74LVC1G17"
-			(at 105.41 74.5491 0)
+		(property "Value" "74AHCT1G17"
+			(at 106.68 72.3198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
