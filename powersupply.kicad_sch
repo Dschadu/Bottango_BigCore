@@ -2844,7 +2844,7 @@
 		)
 		(uuid "53bb219e-1cad-4559-b735-6044610d1730")
 	)
-	(text "ASPI-4020S-2R2N-T"
+	(text "ASPI-4030S-6R8M-T"
 		(exclude_from_sim no)
 		(at 119.38 81.28 0)
 		(effects
