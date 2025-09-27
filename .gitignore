@@ -20,6 +20,7 @@ BigCore-backups/
 *.net
 *.dcm
 *.cmp
+*.lck
 
 # Output (Gerber, BoM, Simulation)
 *.gbr

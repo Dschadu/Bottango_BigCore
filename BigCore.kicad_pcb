@@ -44326,7 +44326,7 @@
 		)
 	)
 	(gr_text "+5V"
-		(at 104.2 194.6 90)
+		(at 104.2 189.6 90)
 		(layer "F.SilkS")
 		(uuid "53bf9fee-8415-4df6-aeb7-ae88f2e44193")
 		(effects
@@ -44398,7 +44398,7 @@
 		)
 	)
 	(gr_text "USB"
-		(at 104.2 189.6 90)
+		(at 104.2 194.6 90)
 		(layer "F.SilkS")
 		(uuid "74b37da2-a5c2-427b-aa6f-302012d7022b")
 		(effects
