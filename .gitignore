@@ -35,7 +35,6 @@ BigCore-backups/
 *.drl
 *.zip
 *.csv
-*.pdf
 *.log
 *.tmp
 
