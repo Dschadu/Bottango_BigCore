@@ -1,0 +1,31 @@
+CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W)
+
+© 2025 Martin Klein
+
+This source describes Open Hardware and is licensed under the CERN-OHL-W v2.
+You may redistribute and modify this documentation and make products using it
+under the terms of the CERN-OHL-W v2 (https://ohwr.org/cern_ohl_w_v2.txt).
+
+This licence does not grant any patent rights.
+
+You must keep this notice with the documentation and provide a copy of the
+modified sources under the same licence when distributing modified versions.
+
+CERN-OHL-W Summary:
+
+1. You are free to:
+   - Use, copy, modify, and distribute this design and make products based on it.
+   - Sell products incorporating this hardware.
+
+2. Conditions:
+   - You must retain this notice and credit the original author(s).
+   - If you distribute a modified version of this hardware, you must:
+       * Provide the modified source files under the same CERN-OHL-W licence.
+       * Clearly document your modifications.
+
+3. “Product A” or other systems that merely include or interface with this
+   hardware do not themselves need to be licensed under the CERN-OHL-W,
+   provided the hardware itself is not modified.
+
+Full licence text:
+https://ohwr.org/cern_ohl_w_v2.txt
