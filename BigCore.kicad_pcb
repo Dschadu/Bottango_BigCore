@@ -44603,7 +44603,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Bottango\nBigCore v1.1"
+	(gr_text "Geistwerk //\nBigCore v1.1"
 		(at 84.6 200.4 0)
 		(layer "F.SilkS")
 		(uuid "d7285ce0-375f-4c6f-b3aa-8a1ce998d952")
