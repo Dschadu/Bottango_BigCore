@@ -3,6 +3,8 @@
 This custom PCB is designed to serve as a **control and interface board** for projects using the [Bottango](https://www.bottango.com/) motion and animation control firmware.  
 It provides robust connectivity, servo control, and expandability for animatronics or motion-based systems.
 
+**Note**: This is a community project and not designed / maintained / officially supported by Bottango.
+
 ---
 
 ## Features
@@ -61,6 +63,8 @@ It provides robust connectivity, servo control, and expandability for animatroni
 This board is designed for use with **Bottango firmware**, providing smooth integration with Bottango Studio for real-time motion and animation control.  
 Learn more at: [https://www.bottango.com/](https://www.bottango.com/)
 
+**Note**: This is a community project and not designed / maintained / officially supported by Bottango.
+
 ---
 
 ## License
@@ -75,7 +79,26 @@ You are free to:
 - Incorporate this board into larger, closed-source systems, **as long as modifications to this board itself remain open-source**
 
 For more information, see the [LICENSE](./LICENSE) file or the full text at
-[https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
+[CERN-OHL-W](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/82b567f43ce515395f7ddbfbad7a8806/cern_ohl_w_v2.txt)
+
+## Copyright Notice
+
+Copyright Martin Klein 2025.
+
+This source describes Open Hardware and is licensed under the CERN-OHLW v2
+
+You may redistribute and modify this PCB and make products
+using it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).
+This PCB is distributed WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2
+for applicable conditions.
+
+Source location: https://github.com/Dschadu/Geistwerk-BigCore
+
+As per CERN-OHL-W v2 section 4.1, should You produce hardware based on
+these sources, You must maintain the Source Location visible in its
+documentation.
 
 ## Acknowledgments
 
